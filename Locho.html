@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.grid-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.grid-item:hover img {
+  transform: scale(1.25);
+}
+
+.planet-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+    <script src="s"></script>
+    <h1 class="text-center">Sistema Solar</h1>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="https://cdn.wallpapersafari.com/67/84/lMPdYS.jpg" alt="Júpiter">
+      <div class="planet-name">Júpiter</div>
+    </div>
+    <div class="grid-item">
+      <img src="https://www.wallpapertip.com/wmimgs/26-269761_planet-wallpaper-4k-phone.jpg" alt="Marte">
+      <div class="planet-name">Marte</div>
+    </div>
+    <div class="grid-item">
+      <img src="https://p4.wallpaperbetter.com/wallpaper/268/1004/26/saturn-planet-solar-system-planetary-rings-wallpaper-preview.jpg" alt="Saturno">
+      <div class="planet-name">Saturno</div>
+    </div>
+    <div class="grid-item">
+      <img src="https://wallpapercave.com/wp/wp4064566.png" alt="Venus">
+      <div class="planet-name">Venus</div>
+    </div>
+    <div class="grid-item">
+      <img src="https://media.istockphoto.com/id/1222768848/es/v%C3%ADdeo/planeta-urano-girando-en-el-espacio-profundo.jpg?s=640x640&k=20&c=TC1W2I50mrs9QVJ2fm6SNJmjT4F8KuhYE3edaXloRxc=" alt="Urano">
+      <div class="planet-name">Urano</div>
+    </div>
+    <div class="grid-item">
+      <img src="https://www.muycomputer.com/wp-content/uploads/2016/04/Tierra-en-4K.jpg" alt="Tierra">
+      <div class="planet-name">Tierra</div>
+    </div>
+    <div class="grid-item">
+      <img src="https://e0.pxfuel.com/wallpapers/866/401/desktop-wallpaper-neptune-planet.jpg" alt="Neptuno">
+      <div class="planet-name">Neptuno</div>
+    </div>
+    <div class="grid-item">
+      <img src="https://e1.pxfuel.com/desktop-wallpaper/741/72/desktop-wallpaper-mercurio-mercury-planet.jpg" alt="Mercurio">
+      <div class="planet-name">Mercurio</div>
+    </div>
+    <div class="grid-item">
+      <img src="https://e0.pxfuel.com/wallpapers/925/551/desktop-wallpaper-black-hole-horizon-planet-blackhole-space.jpg" alt="Gargantua">
+      <div class="planet-name">Gargantua</div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+</html>
