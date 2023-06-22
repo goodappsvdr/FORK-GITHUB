@@ -1,0 +1,32 @@
+section {
+  display: flex;
+  width: 100%;
+}
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin: 0 auto;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.pokemon-img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.pokemon-name {
+  font-size: 18px;
+  font-weight: bold;
+}
